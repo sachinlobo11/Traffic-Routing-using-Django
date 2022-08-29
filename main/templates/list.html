@@ -1,0 +1,14 @@
+{% extends "main/base.html" %}
+{% block title %}View List{% endblock %}
+
+{% block content %}
+	<h1> mm</h1>
+	<ul>
+		{% for item in text %}
+			
+			
+			<li> {{ item }} - set </li>
+			
+		{% endfor %}
+	</ul>
+{% endblock %}
